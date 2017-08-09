@@ -1,0 +1,18 @@
+branch-defaults:
+  aws:
+    environment: pharcoder-dev
+  default:
+    environment: groupresponsePhysic-env
+  dev:
+    environment: pharcoder-dev
+  master:
+    environment: pharcoder-single-1
+deploy:
+  artifact: deployments/web.zip
+global:
+  application_name: groupresponse-physics
+  default_ec2_keyname: null
+  default_platform: Node.js
+  default_region: us-east-1
+  profile: eb-cli
+  sc: git
