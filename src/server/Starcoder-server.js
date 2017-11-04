@@ -53,7 +53,7 @@ Starcoder.prototype.init = function (app, io) {
     this.implementFeature(MsgServer);
     this.implementFeature(CodeEndpointServer);
     this.implementFeature(MongoInterface);
-    this.implementFeature(TutorialInterface);
+    //this.implementFeature(TutorialInterface);
     this.implementFeature(TicketHandler);
     this.newLeaderBoardCategory('Ships Tagged');
     this.newLeaderBoardCategory('Tag Streak');

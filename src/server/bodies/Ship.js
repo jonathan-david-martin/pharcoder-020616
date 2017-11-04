@@ -35,7 +35,7 @@ var Ship = function (config) {
     };
     // Engine
     this.thrustForce = 750;
-    this.turningForce = 50;
+    this.turningForce = 30;
     // Weapons system
     this.charge = 5;
     this.maxCharge = 5;
